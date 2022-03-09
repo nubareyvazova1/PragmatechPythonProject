@@ -29,5 +29,5 @@ class Muellim(Student):
 
 x = Muellim("Gulcin", "Mustafazade")
 x.printname()
- #class task
+
    
