@@ -152,4 +152,4 @@ if "born" and "when" in sual1:
     else:
         print("none")
 else:
-    print("not found")      
+#    print("not found")      
