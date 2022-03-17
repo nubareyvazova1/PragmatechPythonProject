@@ -144,7 +144,7 @@ for i in numbers:
 #    "teacher": "Socrates",
 #    "student": "Aristotle"
 #}
-#sual1=input("sualinizi daxil edin: ")
+sual1=input("sualinizi daxil edin: ")
 if "born" and "when" in sual1:
     answer=input("Maybe did you mean 'When was Plato born?'")
     if answer=="yes":
