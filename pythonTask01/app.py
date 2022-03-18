@@ -100,7 +100,7 @@ for i in numbers:
     if i%2!=0:
         print(i)
         
-#ad=input("adinizi daxil edin:")
+ad=input("adinizi daxil edin:")
 #if len(ad)<11 and len(ad)>3:
 #    soyad=input("soyadinizi daxil edin:")
 #    if len(soyad)<15 and len(soyad)>5:
