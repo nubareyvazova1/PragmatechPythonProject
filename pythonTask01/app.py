@@ -101,8 +101,8 @@ for i in numbers:
         print(i)
         
 ad=input("adinizi daxil edin:")
-#if len(ad)<11 and len(ad)>3:
-#    soyad=input("soyadinizi daxil edin:")
+if len(ad)<11 and len(ad)>3:
+    soyad=input("soyadinizi daxil edin:")
 #    if len(soyad)<15 and len(soyad)>5:
 #        il=input("doguldugunuz ili daxil edin:")
 #        if len(il)==4:
