@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+context={'title':'My Blogs1'}
 
 def blogs (request):
-    return HttpResponse('my blogs')
+    return render(request,"blogs/my_blogs.html" ,context=context)
     
   
