@@ -19,4 +19,5 @@ from blogs.vews import blogs
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blogs/',blogs),
+    
 ]
