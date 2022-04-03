@@ -3,3 +3,6 @@ from django.http import HttpResponse
 # Create your views here.
 def blogs(request):
     return HttpResponse('my django app')
+
+def accounts(request):
+    return render(request,)
