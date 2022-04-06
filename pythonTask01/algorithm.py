@@ -7,14 +7,14 @@ def my_function():
 my_function()    
 #1-ci alqoritim
 
-my_list=[8,2,3,0,7]
+#my_list=[8,2,3,0,7]
 
-def sum_function(): 
-    cem=0
-    for x in my_list:
-        cem=cem+x
-    print(cem)
-sum_function()
+#def sum_function(): 
+    #cem=0
+    #for x in my_list:
+        #cem=cem+x
+    #print(cem)
+#sum_function()
 
 #2-ci alqoritim
 my_list=[8,2,3,-1,7]
