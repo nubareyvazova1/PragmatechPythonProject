@@ -1,7 +1,6 @@
 from django.shortcuts import render
-context={'title':'My Blogs1'}
+context={'title': "my work"}
 
 def blogs (request):
-    return render(request ,"blogs/my_blog.html" ,context=context)
-    
+    return render(request ,"my_blogs.html" ,context=context)
   

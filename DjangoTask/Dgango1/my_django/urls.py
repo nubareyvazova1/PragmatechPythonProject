@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from blogs.views import blogs
-
+from blogs.views import blogs 
+from login.views import users
 from accounts.views import user_info
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/',blogs),
+    path('blog/', blogs),
+    path('users/', users),
+    path('info/', user_info),
     
-    path('info/',user_info)
-]
+] 
