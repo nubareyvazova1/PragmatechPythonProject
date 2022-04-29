@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from blogs.vews import blogs
-from accounts.vews import users
+from blogs.views import blogs
+from accounts.views import users
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blogs/',blogs),
