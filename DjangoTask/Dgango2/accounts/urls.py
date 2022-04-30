@@ -1,7 +1,7 @@
 
 
 from django.urls import path
-from accounts.views import users
+from accounts.views import users_viwer
 urlpatterns = [
-    path('',users),
+    path('',users_viwer),
 ]
