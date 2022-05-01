@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def users(request):
-    return render(request, 'my app')
+def user_view(request):
+    return render(request, 'users.html')
+def register(request):
+    return render(request, 'register.html')
