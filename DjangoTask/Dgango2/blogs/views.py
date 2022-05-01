@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 def blogs(request):
     
-    return render(request'my_blogs.html')
+    return render (request ,'myblogs.html')
