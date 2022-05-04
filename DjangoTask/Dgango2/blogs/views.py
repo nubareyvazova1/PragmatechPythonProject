@@ -25,5 +25,5 @@ def blog_detail(request,pk):
         }
     ]
     blog = blogs[0][pk]
-    
+    print(<''>)
     return render (request, 'blog_detail.html', {'blog': blog})
