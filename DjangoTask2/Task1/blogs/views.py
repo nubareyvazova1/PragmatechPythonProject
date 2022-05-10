@@ -5,4 +5,4 @@ def blogs(request):
     return HttpResponse('my django app')
 
 def accounts(request):
-    return render(request,)
+    return render(request,'base.html')
